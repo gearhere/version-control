@@ -1,4 +1,4 @@
-# 小白入门版本控制系统
+# 小白入门版本控制系统（Version Control System）
 
 本笔记基于Udacity课程《如何使用Git和GitHub》记录，在windows 10系统上完成全部练习。
 
