@@ -249,7 +249,7 @@ git log & commit & parents
 - [LaTex入门安装教程](https://www.imooc.com/article/45497)
 - 张华考上了北京大学；李萍进了中等技术学校；我在百货公司当售货员：我们都有光明的前途。
 
-## vocabulary
+## Expressions
 
 Commas
 
