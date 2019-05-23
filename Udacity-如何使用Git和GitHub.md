@@ -226,6 +226,8 @@ git log & commit & parents
 
 `git push <remote> <branch>`
 
+[github获取token](<https://blog.csdn.net/u014175572/article/details/55510825>) 新建了一个token，似乎没什么用？
+
 ## 其他Linux Command Line
 
 清屏命令 `clear`
@@ -235,23 +237,17 @@ git log & commit & parents
 ### 相关问题
 
 - 你认为，手动选择何时创建提交（像在 Git 中做的那样）与自动保存版本（如 Google Docs 所做的那样）各有何优缺点？
-
 - 将version control用于作业
-
 - Git Bash 主题下载（美观，效率）
+- GitHub密码缓存
 
 ### 无关问题
 - [Linux和UNIX的关系及区别](http://c.biancheng.net/view/707.html)
-
 - [Notepad++ 直接调用cmd窗口运行Python程序](https://blog.csdn.net/sunflower_sara/article/details/81038310)
-
 - 华为系统今秋面世
-
-- 写markdown用typora导出
-
 - 听课时如果有两块屏幕就好了，键盘同时操控两个屏幕
-
 - [LaTex入门安装教程](https://www.imooc.com/article/45497)
+- 张华考上了北京大学；李萍进了中等技术学校；我在百货公司当售货员：我们都有光明的前途。
 
 ## vocabulary
 
