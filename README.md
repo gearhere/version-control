@@ -14,8 +14,9 @@ Complete all exercises on windows 10.
 
 4. As the course is taught in English and instructors speak fast, I incidentally practice my listening and take notes of native expressions, which are deleted after getting notes together.
 
+---
 
-# 小白初探
+# 小白初探版本控制系统
 
 本笔记基于Udacity课程[如何使用Git和GitHub](https://www.udacity.com/course/how-to-use-git-and-github--ud775)记录。
 
