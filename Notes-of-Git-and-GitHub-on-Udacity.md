@@ -1,6 +1,6 @@
 # Notes of [Udacity's Git & GitHub Course](https://www.udacity.com/course/how-to-use-git-and-github--ud775)
 
-[中英双语 如何使用Git和GitHub？](https://cn.udacity.com/course/how-to-use-git-and-github--ud775)
+[Git Documentation]([https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%85%B3%E4%BA%8E%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6](https://git-scm.com/book/zh/v2/起步-关于版本控制))
 
 I think this is an good introduction to version control system for a green hand.
 
@@ -38,16 +38,17 @@ The -u option stands or unified diff format and it will make the output a little
 ### 从Git Bash用命令行打开文本编辑器，设置为notepad++
 
 - [Git Bash 设置Notepad++作为默认编辑器](https://blog.csdn.net/qq_36595013/article/details/80955542) 没有解决问题
-- [git bash简单调用notepad++应用编辑文本的设置](https://jingyan.baidu.com/article/22fe7cedf2c8c93002617f93.html) done，还是环境变量的锅
-先设置环境变量，然后设置Git中的默认编辑器
+- [git bash简单调用notepad++应用编辑文本的设置](https://jingyan.baidu.com/article/22fe7cedf2c8c93002617f93.html) done，还是环境变量的锅，先设置环境变量，然后设置Git中的默认编辑器
 
 ### Git Bash一些命令
 ```
-cd ~                       # 更改目录 directory，“目录”比“文件夹”更具备计算机科学含义
-mkdir version-control             # 创建 version-control 目录
-notepad++ text.txt               # 使用notepad++，打开/创建 text.txt（需要先配置环境变量）
+cd ~                        # 更改目录 directory，“目录”比“文件夹”更具备计算机科学含义
+mkdir version-control       # 创建 version-control 目录
+notepad++ text.txt          # 使用notepad++，打开/创建 text.txt（需要先配置环境变量）
 pwd                         # 打印工作目录
-ls                      # 列出目录下文件
+ls                          # 列出目录下文件
+
+rm .git -rf                 #delete local repository
 ```
 
 #### 使用短行
@@ -118,6 +119,10 @@ tab自动补全command，或者显示可能的command（windows下MinttyGW缺省
 
 [windows setting](https://classroom.udacity.com/courses/ud775/lessons/2980038599/concepts/33417185870923)
 
+#### 修改 commit message
+
+`git commit --amend`  修改上一条提交的commit message
+
 ---
 
 ## Lesson 2 Git
@@ -162,7 +167,7 @@ tab自动补全command，或者显示可能的command（windows下MinttyGW缺省
 
 ### Branch
 
-** checkout可以是commit也可以是branch **
+**checkout可以是commit也可以是branch**
 
 #### master
 
@@ -242,9 +247,9 @@ fork会自动创建一个remote，默认名称为original，可以用`git remote
 
 `git pull` = `git fetch` + `git merge`
 
-** branch_1 is up to date with branch_2 ** 两个分支指向相同的commit
+**branch_1 is up to date with branch_2** 两个分支指向相同的commit
 
-** out of sync ** each branch has a commit not present in the other
+**out of sync** each branch has a commit not present in the other
 
 稍微有点儿绕的origin/master （理解为最后一次pull/clone下来的保存在本地的remote的commit情况）是一个远程追踪分支），同时local还有一个master branch，在本地的commit实际上是改变的master，实例见下图
 
@@ -280,94 +285,16 @@ another remote points to the original repository on GitHub
 
 ## Questions
 
-### 相关问题
+### Related
 
 - 你认为，手动选择何时创建提交（像在 Git 中做的那样）与自动保存版本（如 Google Docs 所做的那样）各有何优缺点？
-- 将version control用于作业
-- Git Bash 主题下载（美观，效率）
+- use version control on homework
+- Git Bash theme（美观，效率）
 - GitHub密码缓存
 
-### 无关问题
+### Unrelated
 - [Linux和UNIX的关系及区别](http://c.biancheng.net/view/707.html)
 - [Notepad++ 直接调用cmd窗口运行Python程序](https://blog.csdn.net/sunflower_sara/article/details/81038310)
-- 华为系统今秋面世
-- 听课时如果有两块屏幕就好了，键盘同时操控两个屏幕
+- 华为系统
+- 听课时如果有两块屏幕就好了，一个打字，一个播放视频，键盘同时操控
 - [LaTex入门安装教程](https://www.imooc.com/article/45497)
-- 张华考上了北京大学；李萍进了中等技术学校；我在百货公司当售货员：我们都有光明的前途。
-
-## Expressions
-
-commas
-
-exclamation point
-
-tedious
-
-arcade game
-
-props typo
-
-navigate to where the files are
-
-plus and minus sign
-
-cement
-
-syntax highlighting
-
-parenthesis matching
-
-at regular intervals
-
-downside
-
-map and grand theme
-
-doable
-
-learning curve
-
-set in stone
-
-valid
-
-cryptic
-
-iterative
-
-incrementally
-
-configuration
-
-from scratch
-
-roid
-
-quality work
-
-compartmentalize
-
-in the mean time
-
-get bugged down
-
-be analogous to
-
-interleave
-
-stand-ins
-
-B' = B prime
-
-memory efficient
-
-compile
-
-sync
-
-verbose
-
-cumin
-
-be a little bit pressed for space
-
