@@ -248,7 +248,7 @@ fork会自动创建一个remote，默认名称为original，可以用`git remote
 
 稍微有点儿绕的origin/master （理解为最后一次pull/clone下来的保存在本地的remote的commit情况）是一个远程追踪分支），同时local还有一个master branch，在本地的commit实际上是改变的master，实例见下图
 
-![origin-master](E:\Jupyterstore\version-control\origin-master.png)
+![origin-master](https://github.com/gearhere/version-control/blob/master/origin-master.png)
 
 #### fast-forward merges
 
@@ -266,13 +266,13 @@ It occurs when merging two commits, where one is ancestor of the other.
 
 another remote points to the original repository on GitHub
 
-![upstream](E:\Jupyterstore\version-control\upstream.png)
+![upstream](https://github.com/gearhere/version-control/blob/master/upstream.png)
 
 ### 几种命令的结果对比（important）
 
 纠错：运行 `git pull` 时，工作目录和暂存区也会更新
 
-![operation-outcome](E:\Jupyterstore\version-control\operation-outcome.png)
+![operation-outcome](https://github.com/gearhere/version-control/blob/master/operation-outcome.png)
 
 ## 其他Linux Command Line
 
